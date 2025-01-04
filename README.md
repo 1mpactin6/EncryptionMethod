@@ -13,6 +13,10 @@ The DecryptionMethod provides an advanced interface for users to encrypt and ecr
 - Interactive command-line interface with color-coded output for better readability.
 - Detailed explanations of the decryption processes.
 
+- Provides different encryption and decryption methods, currently including:
+  - RSA
+  - AES
+
 ## Requirements
 
 - Python 3.x
