@@ -1,5 +1,5 @@
 # EncryptionMethod
- A Python code that can encrypt and decrypt any types of binary code
+ A Python code that can encrypt and decrypt any types of binary code (The code will later be updated in different versions)
 
 ## Overview
 
@@ -43,8 +43,7 @@ The DecryptionMethod provides an advanced interface for users to encrypt and ecr
 1. Run the decryption tool:
 
    ```bash
-   python encryption.py
-   python decryption.py
+   python [filename].py
    ```
 
 2. Follow the prompts in the command line:
