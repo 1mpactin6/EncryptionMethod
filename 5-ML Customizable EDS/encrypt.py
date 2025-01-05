@@ -159,7 +159,7 @@ def user_interface():
         if message.lower() == 'exit':
             log_message(Fore.RED + "Exiting the program." + Style.RESET_ALL)
             break
-        sequence = input("Enter the encryption sequence (e.g., AES,DESC,Blowfish,TripleDES,FPE): ").split(',')
+        sequence = input("Enter the encryption sequence (e.g., AES,DES,Blowfish,TripleDES,FPE): ").split(',')
         
         encrypted_message = encrypt_message(message, sequence)
         print(f"{Fore.YELLOW}Encrypted message: {encrypted_message}{Style.RESET_ALL}")
