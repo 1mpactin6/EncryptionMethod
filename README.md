@@ -54,6 +54,12 @@ The DecryptionMethod provides an advanced interface for users to encrypt and ecr
    pip install rsa
    ```
 
+5. If you already have the dependencies installed. You can upgrade it by:
+
+   ```bash
+   pip install --upgrade [dependency]
+   ```
+
 ## Usage
 
 1. Run the decryption tool:
