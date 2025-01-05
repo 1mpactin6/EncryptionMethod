@@ -42,6 +42,12 @@ The DecryptionMethod provides an advanced interface for users to encrypt and ecr
    python --version
    ```
 
+4. Ensure you have specific dependencies. You can download it by running:
+
+   ```bash
+   pip install pycryptodome
+   ```
+
 ## Usage
 
 1. Run the decryption tool:
