@@ -48,6 +48,12 @@ The DecryptionMethod provides an advanced interface for users to encrypt and ecr
    pip install pycryptodome
    ```
 
+   and
+
+   ```bash
+   pip install rsa
+   ```
+
 ## Usage
 
 1. Run the decryption tool:
