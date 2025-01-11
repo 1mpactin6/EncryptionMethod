@@ -307,7 +307,7 @@ class CustomEncryption:
         # Format results with confidence levels
         results = []
         for decrypted, key, score in possible_decryptions[:5]:  # Show top 5 results
-            confidence = "High" if score > 0.7 else "Medium" if score > 0.5 else "Low"
+            confidence = "High" if score > 0.6 else "Medium" if score > 0.4 else "Low"
             results.append(f"Possible decryption (Confidence: {confidence})\nKey: {key}\nMessage: {decrypted}\nScore: {score:.2f}")
         
         print_random_tip(TIPS["decryption"])
